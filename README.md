@@ -10,9 +10,6 @@
 
 ## Requirement
 
-- [PHP 8.1 or Higher](https://www.php.net/downloads.php)
-- [Laravel 11](https://www.laravel.com/)
-- [Pusher](https://pusher.com/)
 - [NodeJS](https://nodejs.org/en)
   
 ## Installation
