@@ -1,9 +1,3 @@
-# Next.js & NextUI Template
-
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
-
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
-
 ## Technologies Used
 
 - [Next.js 14](https://nextjs.org/docs/getting-started)
@@ -14,40 +8,33 @@ This is a template for creating applications using Next.js 14 (app directory) an
 - [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
 
-## How to Use
+## Requirement
 
-### Use the template with create-next-app
+- [PHP 8.1 or Higher](https://www.php.net/downloads.php)
+- [Laravel 11](https://www.laravel.com/)
+- [Pusher](https://pusher.com/)
+- [NodeJS](https://nodejs.org/en)
+  
+## Installation
 
-To create a new project based on this template using `create-next-app`, run the following command:
-
+1. Buka Terminal
 ```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
+git clone https://github.com/yogameleniawan/nextjs-starterpack
 ```
 
-### Install dependencies
+2. Buka folder
+```bash
+cd nextjs-starterpack
+```
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
+3. Install dependency
 ```bash
 npm install
 ```
 
-### Run the development server
-
+4. Jalankan nextjs
 ```bash
 npm run dev
 ```
 
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@nextui-org/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
+5. Buka nextjs pada browser [http://localhost:3000/](http://localhost:3000/]
