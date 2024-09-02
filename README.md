@@ -34,7 +34,7 @@ npm install
 npm run dev
 ```
 
-5. Buka nextjs pada browser [http://localhost:3000/](http://localhost:3000/]
+5. Buka nextjs pada browser [http://localhost:3000/](http://localhost:3000/)
 
 Hasilnya seperti ini
 
