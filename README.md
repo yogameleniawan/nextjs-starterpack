@@ -38,3 +38,7 @@ npm run dev
 ```
 
 5. Buka nextjs pada browser [http://localhost:3000/](http://localhost:3000/]
+
+Hasilnya seperti ini
+
+![image](https://github.com/user-attachments/assets/d3f31997-aa90-4161-9051-f88a02e2fd52)
