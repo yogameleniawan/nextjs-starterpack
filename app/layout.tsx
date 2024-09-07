@@ -9,6 +9,7 @@ import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import ReactQueryClientProvider from "./providers/ReactQueryClientProvider";
 
 export const metadata: Metadata = {
   title: {
@@ -28,8 +29,6 @@ export const viewport: Viewport = {
   ],
 };
 
-const queryClient = new QueryClient()
-
 export default function RootLayout({
   children,
 }: {
@@ -45,7 +44,7 @@ export default function RootLayout({
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-          <QueryClientProvider client={queryClient}>
+          <ReactQueryClientProvider>
             <div className="relative flex flex-col h-screen">
               <Navbar />
               <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
@@ -63,7 +62,7 @@ export default function RootLayout({
                 </Link>
               </footer>
             </div>
-          </QueryClientProvider>
+          </ReactQueryClientProvider>
         </Providers>
       </body>
     </html>
