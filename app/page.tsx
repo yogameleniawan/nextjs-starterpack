@@ -1,3 +1,5 @@
+"use client";
+
 import { Link } from "@nextui-org/link";
 import { Snippet } from "@nextui-org/snippet";
 import { Code } from "@nextui-org/code";
@@ -10,7 +12,7 @@ import { GithubIcon } from "@/components/atoms/Icons";
 export default function Home() {
   {/* Kita ngoding di dalam sini */}
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col items-center">
       <div className="inline-block max-w-xl text-center justify-center">
         <h1 className={title()}>Mari kita&nbsp;</h1>
         <h1 className={title({ color: "violet" })}>Ngoding&nbsp;</h1>
