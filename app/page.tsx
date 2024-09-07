@@ -6,12 +6,11 @@ import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/atoms/Icons";
-import PageLayout from "@/components/organisms/PageLayout";
 
 export default function Home() {
+  {/* Kita ngoding di dalam sini */}
   return (
-    <div className={"flex flex-col"}>
-      {/* Kita ngoding di dalam sini */}
+    <div className="flex flex-col">
       <div className="inline-block max-w-xl text-center justify-center">
         <h1 className={title()}>Mari kita&nbsp;</h1>
         <h1 className={title({ color: "violet" })}>Ngoding&nbsp;</h1>
@@ -25,7 +24,7 @@ export default function Home() {
         </h2>
       </div>
 
-      <div className="flex gap-3">
+      <div className="flex gap-3 justify-center">
         <Link
           isExternal
           className={buttonStyles({
@@ -47,14 +46,14 @@ export default function Home() {
         </Link>
       </div>
 
-      <div className="mt-8">
+      <div className="flex justify-center mt-8">
         <Snippet hideCopyButton hideSymbol variant="bordered">
           <span>
             Get started by editing <Code color="primary">app/page.tsx</Code>
           </span>
         </Snippet>
       </div>
-      {/* Kita ngoding di dalam sini */}
     </div>
   );
+  {/* Kita ngoding di dalam sini */}
 }
