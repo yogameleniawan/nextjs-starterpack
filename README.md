@@ -24,17 +24,27 @@ git clone https://github.com/yogameleniawan/nextjs-starterpack
 cd nextjs-starterpack
 ```
 
-3. Install dependency
+3. Buat file .env
+```bash
+cp .env.example .env
+```
+
+4. Buka file .env, kemudian sesuaikan isi .env sesuai dengan url Laravel seperti berikut:
+```bash
+API_URL=http://127.0.0.0:8000/api
+```
+
+5. Install dependency
 ```bash
 npm install
 ```
 
-4. Jalankan nextjs
+6. Jalankan nextjs
 ```bash
 npm run dev
 ```
 
-5. Buka nextjs pada browser [http://localhost:3000/](http://localhost:3000/)
+7. Buka nextjs pada browser [http://localhost:3000/](http://localhost:3000/)
 
 Hasilnya seperti ini
 
