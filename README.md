@@ -32,6 +32,7 @@ cp .env.example .env
 4. Buka file .env, kemudian sesuaikan isi .env sesuai dengan url Laravel seperti berikut:
 ```bash
 API_URL=http://127.0.0.1:8000/api
+API_ACCESS_TOKEN=accessTokenYangAdaPadaLaravel
 ```
 
 5. Install dependency
