@@ -1,16 +1,15 @@
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
-import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 
 import { Providers } from "./providers";
 
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
-import { Navbar } from "@/components/molecules/Navbar";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import ReactQueryClientProvider from "@/providers/ReactQueryClientProvider";
 import PageLayout from "@/components/organisms/PageLayout";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 export const metadata: Metadata = {
   title: {
@@ -51,6 +50,7 @@ export default function RootLayout({
             </PageLayout>
           </ReactQueryClientProvider>
         </Providers>
+        <ToastContainer />
       </body>
     </html>
   );
