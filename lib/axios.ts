@@ -4,8 +4,8 @@ const axiosInstance = axios.create({
   baseURL: process.env.API_URL,
   headers: {
     'Content-Type': 'application/json',
+    'Access-Token': process.env.API_ACCESS_TOKEN,
   },
-  timeout: 10000,
 });
 
 export default axiosInstance;
