@@ -7,6 +7,8 @@
 - [TypeScript](https://www.typescriptlang.org/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
+- [React Query](https://tanstack.com/query/v3)
+- [Formik](https://formik.org/docs)
 
 ## Requirement
 
