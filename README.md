@@ -16,12 +16,16 @@
   
 ## Installation
 
-1. Buka Terminal
+1. Inisialisasi Projek
+
+Buka Terminal (Jika menggunakan git)
 ```bash
 git clone https://github.com/yogameleniawan/nextjs-starterpack
 ```
 
-2. Buka folder
+Extract File `nextjs-starterpack-master.zip` (jika menggunakan .zip)
+
+2. Buka folder projectnya
 ```bash
 cd nextjs-starterpack
 ```
